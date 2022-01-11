@@ -27,5 +27,5 @@ jobs:
     # Run Snyk Infrastructure as Code
     - name: Run Snyk Infrastructure as Code
       run: |
-         snyk iac test kubernetes/ --severity-threshold=high --rules=kubernetes/bundle.tar.gz
+         snyk iac test kubernetes/ --severity-threshold=high 
       continue-on-error: true
